@@ -1,26 +1,39 @@
-.App {
+.home-content {
   text-align: center;
-}
+  background-color: #b0c4de;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-  }
-}
-
-.App-header {
-  background-color: white;
   min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   font-size: calc(10px + 2vmin);
+}
+.home-content {
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir o elemento */
+  background-position: center; /* Centraliza horizontalmente */
+  background-repeat: no-repeat;
+}
+
+.home-background {
   color: white;
+}
+
+.home-background h1 {
+  letter-spacing: 0.2em;
+  font-transform: none;
+}
+
+.home-background h1,
+.home-background p {
+  margin: 0;
+  color: white;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+  }
 }
 
 p {

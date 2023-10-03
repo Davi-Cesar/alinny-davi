@@ -1,0 +1,57 @@
+/* Header.css */
+
+.header {
+  font-family: "Buenard", sans-serif;
+
+  height: 100px;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header .logo {
+  height: 100%;
+  winth: 100%;
+  margin-left: 2rem;
+}
+
+.header a {
+  color: black;
+  text-decoration: none;
+  margin: 0 20px;
+
+  font-weight: 700;
+}
+
+.header nav {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header ul {
+  display: flex;
+  justify-content: center;
+  align-itens: center;
+
+  margin: 0;
+  padding: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-itens: center;
+  list-styles: none;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
