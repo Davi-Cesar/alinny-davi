@@ -18,12 +18,16 @@
 }
 
 .home-background {
-  color: white;
+  opacity: 90%;
 }
 
 .home-background h1 {
   letter-spacing: 0.2em;
   font-transform: none;
+}
+
+.home-background p {
+  font-family: "Lato", sans serif;
 }
 
 .home-background h1,

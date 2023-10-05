@@ -1,6 +1,6 @@
 .container {
   font-family: "Lato";
-  background: #f4f4f4;
+  background: ;
   padding: 2rem;
 }
 
@@ -38,7 +38,7 @@ ul {
 }
 
 .item i {
-  color: var(--gray-300);
+  color: var(--gray-500);
 }
 
 .button {
