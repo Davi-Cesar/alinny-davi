@@ -33,7 +33,6 @@ h1 {
   padding: 1rem;
   text-transform: uppercase;
   font-family: "Buernard";
-  color: var(--gray-600);
 }
 
 code {

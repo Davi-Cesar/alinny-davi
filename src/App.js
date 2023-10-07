@@ -12,7 +12,7 @@ function App() {
           style={{ backgroundImage: `url("./pre.jpg")` }}
         >
           <div className="home-background">
-            <h1>Alinny e Davi</h1>
+            <h1>Alinny & Davi</h1>
             <p>15 de dezembro de 2023</p>
           </div>
         </div>
