@@ -5,7 +5,7 @@ function useController() {
   const [showCount, setShowCount] = useState(4);
 
   const onSeeMoreHandle = () => {
-    setShowCount(showCount + 2);
+    setShowCount(showCount + 4);
   };
 
   const slicedGifts = useMemo(() => {
