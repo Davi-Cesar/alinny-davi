@@ -1,0 +1,13 @@
+.see-more-button {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: transparent;
+  border: none;
+
+  border-radius: 20px;
+
+  width: 100%;
+}
+
+.see-more-button p {
+  color: black;
+}

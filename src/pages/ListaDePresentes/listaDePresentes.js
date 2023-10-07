@@ -1,32 +1,14 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import "./listaDePresentes.css";
+import Gift from "./comps/gift";
+import SeeMoreButton from "../../components/buttons/see-more-button";
+import useController from "./controller";
+
 export default function ListaDePresentes() {
-  const [presentes] = useState([
-    {
-      id: 1,
-      img: "/assets/images/Fritadeira_5_Litros_1400W.jpg",
-      descricao: "Fritadeira 5 Litros 1400W",
-      valor: 250.0,
-    },
-    {
-      id: 2,
-      img: "/assets/images/Fritadeira_5_Litros_1400W.jpg",
-      descricao: "Fritadeira 5 Litros 1400W",
-      valor: 250.0,
-    },
-    {
-      id: 3,
-      img: "/assets/images/Fritadeira_5_Litros_1400W.jpg",
-      descricao: "Fritadeira 5 Litros 1400W",
-      valor: 250.0,
-    },
-    {
-      id: 4,
-      img: "/assets/images/Fritadeira_5_Litros_1400W.jpg",
-      descricao: "Fritadeira 5 Litros 1400W",
-      valor: 250.0,
-    },
-  ]);
+  const { onSeeMoreHandle, showCount, slicedGifts, totalCount } =
+    useController();
+
+  const showButton = useMemo(() => showCount >= totalCount, [showCount]);
 
   return (
     <>
@@ -36,20 +18,21 @@ export default function ListaDePresentes() {
         </center>
         <div className="containerPresente">
           <ul>
-            {presentes.map((presente) => (
-              <li key={presente.id} className="item">
-                <center>
-                  <img src={presente.img} alt="" />
-                  <p>{presente.descricao}</p>
-
-                  <i>valor aproximado:</i>
-
-                  <h4>R$ {presente.valor},00</h4>
-                  <button className="button default">Presentear</button>
-                </center>
-              </li>
+            {slicedGifts.map((presente) => (
+              <Gift key={presente.id} {...presente}></Gift>
             ))}
           </ul>
+
+          <p className="page-info">
+            Mostrando {showCount} de
+            {totalCount} items
+          </p>
+
+          {!showButton && (
+            <div className="bt">
+              <SeeMoreButton onClick={onSeeMoreHandle}></SeeMoreButton>
+            </div>
+          )}
         </div>
       </div>
     </>

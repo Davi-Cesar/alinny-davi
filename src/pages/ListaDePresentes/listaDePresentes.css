@@ -1,51 +1,60 @@
 .container {
   font-family: "Lato";
-  background: ;
-  padding: 2rem;
+  background: #f4f4f4;
+
+  padding-top: 2rem;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .containerPresente {
   margin: 0;
   padding: 0;
 
-  winth: 100%;
+  width: 100%;
   height: 100%;
-}
-
-ul {
-  winth: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-}
-.item {
-  flex-grow: 1;
 
   display: flex;
   flex-direction: column;
-
-  winth: 100%;
 }
 
-.item button {
-  cursor: pointer;
+.containerPresente .bt {
+  display: flex;
+
+  width: 95%;
+
+  align-self: center;
+
+  margin-bottom: 1rem;
 }
 
-.item h4 {
-  margin: 0.5rem;
-  color: var(--orange-700);
+.page-info {
+  margin: 1rem 0rem 1rem 1rem;
 }
 
-.item i {
-  color: var(--gray-500);
+ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
 }
 
-.button {
-  padding: 10px 20px;
-  border: 1px solid black;
-  border-radius: 50px;
-  background: var(--gray-900);
-  color: white;
-  font-weight: bold;
+@media (min-width: 768px) {
+  .containerPresente {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  ul {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .containerPresente {
+    width: 70%;
+  }
 }
