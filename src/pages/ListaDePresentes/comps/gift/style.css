@@ -6,7 +6,9 @@
 
   width: 35vw;
 
-  margin: 0.5rem;
+  margin-right: 0.1rem;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
 
 .item img {
@@ -17,19 +19,34 @@
 }
 
 .item h4 {
-  margin: 0.5rem;
+  margin: 0.5rem 0;
   color: var(--orange-700);
 }
 
 .item i {
-  color: var(--gray-300);
+  color: var(--orange-700);
 }
 
 .button {
   padding: 10px 20px;
   border: 1px solid black;
-  border-radius: 50px;
+  border-radius: 2px;
   background: var(--gray-900);
   color: white;
   font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .item {
+    max-width: 30%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 0.3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .item {
+    min-width: 16rem;
+    max-width: 16rem;
+  }
 }

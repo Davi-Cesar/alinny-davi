@@ -1,7 +1,11 @@
 .container {
   font-family: "Lato";
   background: #f4f4f4;
-  padding: 2rem;
+
+  padding-top: 2rem;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .containerPresente {
@@ -10,6 +14,23 @@
 
   width: 100%;
   height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.containerPresente .bt {
+  display: flex;
+
+  width: 95%;
+
+  align-self: center;
+
+  margin-bottom: 1rem;
+}
+
+.page-info {
+  margin: 1rem 0rem 1rem 1rem;
 }
 
 ul {
@@ -17,5 +38,23 @@ ul {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .containerPresente {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  ul {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .containerPresente {
+    width: 70%;
+  }
 }

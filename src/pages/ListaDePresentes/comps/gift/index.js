@@ -10,8 +10,6 @@ function Gift(presente) {
       <img src={presente.img} alt="" />
       <p>{presente.descricao}</p>
 
-      <i>valor aproximado:</i>
-
       <h4>R$ {presente.valor},00</h4>
       <button className="button default">Presentear</button>
     </li>

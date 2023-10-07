@@ -5,7 +5,10 @@ import SeeMoreButton from "../../components/buttons/see-more-button";
 import useController from "./controller";
 
 export default function ListaDePresentes() {
-  const { onSeeMoreHandle, showCount, slicedGifts } = useController();
+  const { onSeeMoreHandle, showCount, slicedGifts, totalCount } =
+    useController();
+
+  const showButton = useMemo(() => showCount >= totalCount, [showCount]);
 
   return (
     <>
@@ -20,7 +23,16 @@ export default function ListaDePresentes() {
             ))}
           </ul>
 
-          <SeeMoreButton onClick={onSeeMoreHandle}></SeeMoreButton>
+          <p className="page-info">
+            Mostrando {showCount} de
+            {totalCount} items
+          </p>
+
+          {!showButton && (
+            <div className="bt">
+              <SeeMoreButton onClick={onSeeMoreHandle}></SeeMoreButton>
+            </div>
+          )}
         </div>
       </div>
     </>

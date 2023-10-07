@@ -1,6 +1,5 @@
 import React, { useMemo, useState } from "react";
 import presentes from "../../data/gitfs-data.json";
-console.log({ presentes });
 
 function useController() {
   const [showCount, setShowCount] = useState(4);
@@ -15,9 +14,12 @@ function useController() {
     return presentes.slice(0, showCount);
   }, [showCount]);
 
-  console.log({ showCount });
-
-  return { onSeeMoreHandle, slicedGifts, showCount };
+  return {
+    onSeeMoreHandle,
+    slicedGifts,
+    showCount,
+    totalCount: presentes.length,
+  };
 }
 
 export default useController;
