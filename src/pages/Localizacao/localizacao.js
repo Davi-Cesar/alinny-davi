@@ -7,6 +7,9 @@ export default function localizacao() {
         <center>
           <h1>CERIMÔNIA</h1>
         </center>
+        <div className="garden">
+          <img src="/garden.svg" alt="espaço garden" />
+        </div>
         <p>
           Gostaríamos muito de contar com a presença de todos vocês no momento
           em que nossa união será abençoada diante de Deus! A cerimônia será

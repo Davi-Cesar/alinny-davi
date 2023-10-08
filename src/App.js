@@ -6,7 +6,7 @@ import Localizacao from "./pages/Localizacao/localizacao";
 function App() {
   return (
     <>
-      <div className="home-container">
+      <div id="#home" className="home-container">
         <div
           className="home-content"
           style={{ backgroundImage: `url("./pre.jpg")` }}

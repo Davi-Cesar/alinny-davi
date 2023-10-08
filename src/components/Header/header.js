@@ -1,34 +1,31 @@
 import "./header.css";
 import React, { useEffect, useState } from "react";
+import Hamburger from "../Hamburger/hamburger";
+import Navbar from "../Navbar/navbar";
 
 function Header() {
-  const [isScrolled, setIsScrolled] = useState(0);
+  const [isScrolled, setIsScrolled] = useState(false);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    const handleScroll = () => {
+      window.scrollY > 500 ? setIsScrolled(true) : setIsScrolled(false);
+    };
 
-  const headerScrolled = () => {
-    setIsScrolled(window.scrolY);
-  };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <header
       id="myHeader"
-      className={headerScrolled > 100 ? "headerScrolled" : "header"}
+      className={isScrolled ? "header header-rolagem" : "header"}
     >
       <img src="/logo_vetorizada.svg" className="logo" alt="gif" />
-      <nav>
-        <ul>
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#lista-de-presentes">Lista de presentes</a>
-          </li>
-          <li>
-            <a href="#localizacao">Cerimônia</a>
-          </li>
-        </ul>
-      </nav>
+
+      <Hamburger />
+      <Navbar />
     </header>
   );
 }
