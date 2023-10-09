@@ -1,7 +1,7 @@
 import "./App.css";
-
+import Cerimonia from "./pages/Cerimonia/cerimonia";
+import Fotos from "./pages/Fotos/fotos";
 import ListaDePresentes from "./pages/ListaDePresentes/listaDePresentes";
-import Localizacao from "./pages/Localizacao/localizacao";
 
 function App() {
   return (
@@ -16,9 +16,9 @@ function App() {
             <p>15 de dezembro de 2023</p>
           </div>
         </div>
-
+        <Fotos />
         <ListaDePresentes />
-        <Localizacao />
+        <Cerimonia />
       </div>
     </>
   );

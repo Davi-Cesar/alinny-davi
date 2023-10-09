@@ -30,6 +30,10 @@ export default function Navbar({ isOpen }) {
               <House />
             </li>
             <li className="icon">
+              <a href="#fotos">Fotos</a>
+              <Aperture />
+            </li>
+            <li className="icon">
               <a href="#home">Paleta</a>
               <Palette />
             </li>
@@ -40,10 +44,6 @@ export default function Navbar({ isOpen }) {
             <li className="icon">
               <a href="#localizacao">Cerimônia</a>
               <MapPinLine />
-            </li>
-            <li className="icon">
-              <a href="#fotos">Fotos</a>
-              <Aperture />
             </li>
           </IconContext.Provider>
         </ul>
