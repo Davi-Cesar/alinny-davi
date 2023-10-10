@@ -1,0 +1,82 @@
+.pallete {
+  padding: 2rem 0.5rem;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.pallete > h3 {
+  font-size: 32px;
+
+  align-self: center;
+}
+
+.pallete > h5 {
+  font-size: 16px;
+
+  align-self: center;
+}
+
+.palleteFooter {
+  display: flex;
+
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.palleteFooter > img {
+  width: 40%;
+  object-fit: contain;
+  margin-right: 1rem;
+}
+
+.palleteFooterWrapper {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.palleteFooterWrapper > h3 {
+}
+
+.palleteFooterWrapper > p {
+  margin-right: 1rem;
+}
+
+.palleteColorContainer {
+  display: flex;
+
+  margin-top: 1rem;
+}
+
+.palleteColor {
+  border-radius: 10rem;
+  margin-right: 0.5rem;
+
+  width: 10vw;
+  height: 10vw;
+
+  background-color: var(--col);
+}
+
+@media (min-width: 700px) {
+  .palleteColor {
+    max-width: 3rem;
+    max-height: 3rem;
+  }
+
+  .palleteFooter {
+    padding: 0rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .pallete {
+    padding: 5rem;
+  }
+
+  .palleteFooter > img {
+    width: 20rem;
+  }
+}
