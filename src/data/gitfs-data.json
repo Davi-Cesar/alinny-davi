@@ -3,72 +3,84 @@
     "id": 1,
     "img": "/assets/images/fritadeira_1.png",
     "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0
+    "valor": 300.0,
+    "reservado": true
   },
   {
     "id": 2,
     "img": "/assets/images/fritadeira_1.png",
     "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0
+    "valor": 250.0,
+    "reservado": false
   },
   {
     "id": 3,
     "img": "/assets/images/fritadeira_1.png",
     "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0
+    "valor": 250.0,
+    "reservado": false
   },
   {
     "id": 4,
     "img": "/assets/images/fritadeira_1.png",
     "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0
+    "valor": 250.0,
+    "reservado": false
   },
   {
     "id": 5,
     "img": "/assets/images/fritadeira_1.png",
     "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0
+    "valor": 250.0,
+    "reservado": false
   },
   {
     "id": 6,
     "img": "/assets/images/fritadeira_1.png",
     "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0
+    "valor": 250.0,
+    "reservado": false
   },
   {
     "id": 7,
     "img": "/assets/images/fritadeira_1.png",
     "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0
+    "valor": 250.0,
+    "reservado": false
   },
   {
     "id": 8,
     "img": "/assets/images/fritadeira_1.png",
     "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0
+    "valor": 250.0,
+    "reservado": false
   },
   {
     "id": 9,
     "img": "/assets/images/fritadeira_1.png",
     "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0
+    "valor": 250.0,
+    "reservado": false
   },
   {
     "id": 10,
     "img": "/assets/images/fritadeira_1.png",
     "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0
+    "valor": 250.0,
+    "reservado": false
   },
   {
     "id": 11,
     "img": "/assets/images/fritadeira_1.png",
     "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0
+    "valor": 250.0,
+    "reservado": false
   },
   {
     "id": 12,
     "img": "/assets/images/fritadeira_1.png",
     "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0
+    "valor": 250.0,
+    "reservado": false
   }
 ]

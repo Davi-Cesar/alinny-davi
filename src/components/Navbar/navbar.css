@@ -5,12 +5,12 @@ nav {
   align-items: center;
 }
 
-li {
+/* li {
   display: flex;
   justify-content: center;
 
   list-styles: none;
-}
+} */
 
 @media (max-width: 768px) {
   nav {
@@ -32,7 +32,7 @@ li {
     transition: 2s;
   }
 
-  ul li:nth-child(1) {
+  /* ul li:nth-child(1) {
     transform: translateX(-10%);
   }
 
@@ -50,7 +50,7 @@ li {
 
   ul li:nth-child(5) {
     transform: translateX(-10%);
-  }
+  } */
 
   .open a {
     margin: 0;

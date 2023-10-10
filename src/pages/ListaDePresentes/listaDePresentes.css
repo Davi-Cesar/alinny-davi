@@ -33,14 +33,15 @@
   margin: 1rem 0rem 1rem 1rem;
 }
 
-ul {
+.containerPresente ul {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
+  padding: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
   .containerPresente {
     align-items: center;
     display: flex;
@@ -48,13 +49,15 @@ ul {
     align-self: center;
   }
 
-  ul {
+  .containerPresente ul {
+    width: 90%;
+
     justify-content: center;
   }
 }
 
 @media (min-width: 992px) {
   .containerPresente {
-    width: 70%;
+    width: 90%;
   }
 }

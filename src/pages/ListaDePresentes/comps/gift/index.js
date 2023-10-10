@@ -10,13 +10,18 @@ function Gift(presente) {
 
   return (
     <li key={presente.id} className="item">
+      <div className={presente.reservado ? "reserved" : ""}></div>
       <img src={presente.img} alt="" />
 
       <p>{presente.descricao}</p>
 
       <h4>R$ {presente.valor},00</h4>
-      <button onClick={handleButtonClick} className="button default">
-        Presentear
+      <button
+        disabled={presente.reservado}
+        onClick={handleButtonClick}
+        className="button default"
+      >
+        {presente.reservado ? "Reservado!" : "Presentear"}
       </button>
     </li>
   );

@@ -14,7 +14,9 @@ function useController() {
       return presentes;
     }
 
-    return presentes.slice(0, showCount);
+    return presentes
+      .sort((a, b) => a.reservado - b.reservado)
+      .slice(0, showCount);
   }, [showCount]);
 
   return {
