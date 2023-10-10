@@ -16,6 +16,16 @@
   font-size: 16px;
 
   align-self: center;
+
+  margin-bottom: 2rem;
+}
+
+.palleteFooter > img {
+  width: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+
+  margin-top: 0rem;
 }
 
 .palleteFooter {
@@ -24,12 +34,12 @@
   margin-top: 1rem;
   padding: 0.5rem;
 }
-
+/* 
 .palleteFooter > img {
   width: 40%;
   object-fit: contain;
   margin-right: 1rem;
-}
+} */
 
 .palleteFooterWrapper {
   display: flex;
@@ -41,13 +51,15 @@
 }
 
 .palleteFooterWrapper > p {
-  margin-right: 1rem;
+  margin-right: 3rem;
 }
 
 .palleteColorContainer {
   display: flex;
 
   margin-top: 1rem;
+
+  margin-bottom: 1rem;
 }
 
 .palleteColor {
@@ -58,6 +70,18 @@
   height: 10vw;
 
   background-color: var(--col);
+}
+
+.palletGridItem {
+  display: flex;
+
+  background-color: red;
+}
+
+.palletGridItem > img {
+  display: flex;
+
+  width: 100%;
 }
 
 @media (min-width: 700px) {
@@ -72,11 +96,46 @@
 }
 
 @media (min-width: 900px) {
+  .pallete > div {
+    display: flex;
+    flex-direction: row-reverse;
+    max-height: 35rem;
+
+    margin: 0 2rem;
+
+    overflow: hidden;
+  }
+
   .pallete {
-    padding: 5rem;
+    padding: 1rem;
+  }
+
+  .palleteFooter {
+    flex: 1;
   }
 
   .palleteFooter > img {
-    width: 20rem;
+    width: 15rem;
+    object-fit: cover;
+    margin-right: 1rem;
+
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+  }
+
+  .palleteFooterWrapper {
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .pallete > div {
+    margin: 0px 7rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .pallete > div {
+    margin: 0px 15rem;
   }
 }

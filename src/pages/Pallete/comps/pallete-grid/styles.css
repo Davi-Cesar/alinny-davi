@@ -2,18 +2,20 @@
   margin-top: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+
   gap: 0rem;
 
-  background-color: red;
+  width: 100vw;
 
-  width: 100%;
+  grid-template-rows: 25vw 25vw 25vw;
 }
 
 .palleteWrapper {
   display: flex;
-  position: relative;
 
-  overflow: hidden;
+  flex: 0;
+
+  position: relative;
 }
 
 .selectedPalleteImg {
@@ -40,4 +42,34 @@
   height: 22vw;
 
   object-fit: cover;
+}
+
+@media (min-width: 900px) {
+  .palleteWrapper {
+    justify-content: flex-end;
+    background-color: transparent;
+  }
+
+  .imgPalleteContainer {
+    min-width: 35vw;
+    min-height: 35vw;
+    width: 35vw;
+    height: 35vw;
+    grid-template-rows: 25% 25% 25% 25%;
+  }
+
+  .imgPalleteContainer > img {
+    display: flex;
+
+    flex: 1;
+  }
+
+  .imgPalleteContainer {
+  }
+}
+
+@media (min-width: 700px) {
+  .palleteWrapper {
+    flex: 1;
+  }
 }

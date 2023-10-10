@@ -14,11 +14,13 @@ function PalleteGrid() {
     <div className="palleteWrapper">
       <div className="imgPalleteContainer">
         {imgCountArray.map((v, i) => (
-          <img
-            onClick={(e) => onPalleteImgClick(e.target)}
-            key={i}
-            src={`/assets/pallete/img${i + 1}.jpg`}
-          ></img>
+          <div className="palletGridItem">
+            <img
+              onClick={(e) => onPalleteImgClick(e.target)}
+              key={i}
+              src={`/assets/pallete/img${i + 1}.jpg`}
+            ></img>
+          </div>
         ))}
       </div>
       <img
