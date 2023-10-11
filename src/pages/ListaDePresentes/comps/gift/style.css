@@ -9,6 +9,8 @@
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
   position: relative;
+
+  animation: showItem 0.7s ease;
 }
 
 .item img {
@@ -60,5 +62,14 @@
   .item {
     max-width: 13rem;
     margin: 1rem;
+  }
+}
+
+@keyframes showItem {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
