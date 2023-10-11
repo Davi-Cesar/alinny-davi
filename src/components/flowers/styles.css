@@ -1,6 +1,6 @@
 .dot {
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   position: absolute;
   background: url(https://image.ibb.co/kyUHab/rose.png);
   background-size: 100% 100%;
@@ -18,4 +18,11 @@
   overflow: hidden;
 
   top: 0;
+}
+
+@media (min-width: 700px) {
+  .dot {
+    width: 15px;
+    height: 15px;
+  }
 }
