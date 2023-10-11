@@ -1,5 +1,4 @@
 import "./App.css";
-import Flowers from "./components/flowers";
 import Cerimonia from "./pages/Cerimonia/cerimonia";
 import Fotos from "./pages/Fotos/fotos";
 import ListaDePresentes from "./pages/ListaDePresentes/listaDePresentes";
@@ -18,7 +17,6 @@ function App() {
           </div>
         </div>
 
-        <Flowers></Flowers>
         <Fotos />
 
         <Pallete></Pallete>
