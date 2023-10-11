@@ -19,6 +19,16 @@
 
 .home-background {
   opacity: 90%;
+
+  z-index: 2;
+}
+
+.home-background > h1 {
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.home-background > p {
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .home-background h1 {

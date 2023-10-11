@@ -1,4 +1,5 @@
 import "./App.css";
+import Flowers from "./components/flowers";
 import Cerimonia from "./pages/Cerimonia/cerimonia";
 import Fotos from "./pages/Fotos/fotos";
 import ListaDePresentes from "./pages/ListaDePresentes/listaDePresentes";
@@ -16,6 +17,8 @@ function App() {
             <p>15 de dezembro de 2023</p>
           </div>
         </div>
+
+        <Flowers></Flowers>
         <Fotos />
 
         <Pallete></Pallete>
