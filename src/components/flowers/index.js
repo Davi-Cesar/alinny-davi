@@ -31,20 +31,20 @@ function Flowers() {
     }
 
     function animm(elm) {
-      gsap.to(elm, R(6, 15), {
+      gsap.to(elm, R(12, 30), {
         y: h + 100,
         ease: Linear.easeNone,
         repeat: -1,
         delay: -15,
       });
-      gsap.to(elm, R(4, 8), {
+      gsap.to(elm, R(8, 16), {
         x: "+=100",
         rotationZ: R(0, 180),
         repeat: -1,
         yoyo: true,
         ease: Sine.easeInOut,
       });
-      gsap.to(elm, R(2, 8), {
+      gsap.to(elm, R(4, 16), {
         rotationX: R(0, 360),
         rotationY: R(0, 360),
         repeat: -1,
