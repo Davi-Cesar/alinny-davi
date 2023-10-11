@@ -14,7 +14,7 @@ function PalleteGrid() {
     <div className="palleteWrapper">
       <div className="imgPalleteContainer">
         {imgCountArray.map((v, i) => (
-          <div className="palletGridItem">
+          <div key={i} className="palletGridItem">
             <img
               onClick={(e) => onPalleteImgClick(e.target)}
               key={i}

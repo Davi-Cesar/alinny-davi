@@ -52,12 +52,22 @@
   .containerPresente ul {
     width: 90%;
 
-    justify-content: center;
+    transform: translateX(3vw);
   }
 }
 
 @media (min-width: 992px) {
   .containerPresente {
     width: 90%;
+  }
+
+  .containerPresente ul {
+    transform: translateX(7vw);
+  }
+}
+
+@media (min-width: 1500px) {
+  .containerPresente ul {
+    transform: translateX(2.5vw);
   }
 }
