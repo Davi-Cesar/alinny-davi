@@ -1,43 +1,75 @@
-import { useState } from "react";
 import "./fotos.css";
-const quadro1 = ["pw1.jpg", "pw2.jpg", "pw3.jpg"];
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { FreeMode, Pagination } from "swiper/modules";
+
 export default function Fotos() {
-  const [image, setImage] = useState(0);
-
-  // function interval(quadro) {
-  //   setImage((index) => {
-  //     if (index === quadro.length - 1) {
-  //       return 1;
-  //     } else {
-  //       return index + 1;
-  //     }
-  //   }, 3000);
-  // }
-
-  // useEffect(() => {
-  //   const intervalo = setInterval(() => {
-  //     interval(quadro1);
-  //   }, 3000);
-  // }, [interval]);
-
   return (
     <>
       <div className="container-fotos">
         <div className="box-image">
-          <img src={quadro1[image]} alt="" />
+          <Swiper
+            slidesPerView={3}
+            spaceBetween={30}
+            freeMode={true}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[FreeMode, Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <img src="/pw1.jpg" alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/pw2.jpg" alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/pw3.jpg" alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://source.unsplash.com/1000x805"
+                alt="foto do casal"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://source.unsplash.com/1000x804"
+                alt="foto do casal"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://source.unsplash.com/1000x803"
+                alt="foto do casal"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://source.unsplash.com/1000x802"
+                alt="foto do casal"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://source.unsplash.com/1000x801"
+                alt="foto do casal"
+              />
+              Z
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://source.unsplash.com/1000x810"
+                alt="foto do casal"
+              />
+              Z
+            </SwiperSlide>
+          </Swiper>
         </div>
-        <div className="box-image">
-          <img src="/pw2.jpg" alt="" />
-        </div>
-        <div className="box-image">
-          <img src="/pw3.jpg" alt="" />
-        </div>
-        {/* <div className="box">
-          <img src="https://source.unsplash.com/1000x808" alt="" />
-        </div>
-        <div className="box">
-          <img src="https://source.unsplash.com/1000x801" alt="" />
-        </div> */}
       </div>
     </>
   );

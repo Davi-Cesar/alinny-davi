@@ -29,10 +29,15 @@ body {
 html {
 }
 
+p {
+  font-family: "Lato", sans serif;
+  color: var(--gray-600);
+}
+
 h1 {
   padding: 1rem;
   text-transform: uppercase;
-  font-family: "Buernard";
+  font-family: "Buernard", sans serif;
 }
 
 code {

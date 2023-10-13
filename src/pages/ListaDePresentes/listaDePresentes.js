@@ -24,8 +24,7 @@ export default function ListaDePresentes() {
           </ul>
 
           <p className="page-info">
-            Mostrando {showCount} de
-            {totalCount} items
+            Mostrando {showCount} de {totalCount} itens
           </p>
 
           {!showButton && (
