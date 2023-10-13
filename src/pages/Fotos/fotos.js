@@ -4,12 +4,12 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Pagination } from "swiper/modules";
+import { FreeMode, Pagination, Autoplay } from "swiper/modules";
 
 export default function Fotos() {
   return (
     <>
-      <div className="container-fotos">
+      <div id="fotos" className="container-fotos">
         <div className="box-image">
           <Swiper
             slidesPerView={3}
@@ -18,8 +18,12 @@ export default function Fotos() {
             pagination={{
               clickable: true,
             }}
-            modules={[FreeMode, Pagination]}
+            slide
+            modules={[FreeMode, Pagination, Autoplay]}
             className="mySwiper"
+            autoplay={{ delay: 1000 }}
+            navigation={true}
+            allowSlideNext={true}
           >
             <SwiperSlide>
               <img src="/pw1.jpg" alt="" />

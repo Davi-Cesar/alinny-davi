@@ -7,7 +7,7 @@ import PalleteGrid from "./comps/pallete-grid";
 
 function Pallete() {
   return (
-    <section className="pallete">
+    <section id="paleta" className="pallete">
       <h3>Inspirações</h3>
       <h5>Paleta de Cores</h5>
 

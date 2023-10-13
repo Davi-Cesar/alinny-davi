@@ -3,7 +3,7 @@ import "./cerimonia.css";
 export default function Cerimonia() {
   return (
     <>
-      <div className="container-localizacao">
+      <div id="cerimonia" className="container-localizacao">
         <center>
           <h1>CERIMÔNIA</h1>
         </center>

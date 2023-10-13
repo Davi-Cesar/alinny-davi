@@ -26,23 +26,23 @@ export default function Navbar({ isOpen }) {
             }}
           >
             <li className="icon">
-              <a href="#home">Home</a>
+              <a href="/#home">Home</a>
               <House />
             </li>
             <li className="icon">
-              <a href="#fotos">Fotos</a>
+              <a href="/#fotos">Fotos</a>
               <Aperture />
             </li>
             <li className="icon">
-              <a href="#home">Paleta</a>
+              <a href="/#paleta">Paleta</a>
               <Palette />
             </li>
             <li className="icon">
-              <a href="#lista-de-presentes">Lista de presentes</a>
+              <a href="/#presentes">Lista de presentes</a>
               <Gift />
             </li>
             <li className="icon">
-              <a href="#localizacao">Cerimônia</a>
+              <a href="/#cerimonia">Cerimônia</a>
               <MapPinLine />
             </li>
           </IconContext.Provider>

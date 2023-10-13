@@ -12,7 +12,7 @@ export default function ListaDePresentes() {
 
   return (
     <>
-      <div className="container">
+      <div id="presentes" className="container">
         <center>
           <h1>Lista de Presentes</h1>
         </center>

@@ -17,6 +17,8 @@
   --gray-900: #171923;
 
   --tamanho-fonte: 16px;
+
+  --swiper-theme-color: red !important;
 }
 
 body {
@@ -27,6 +29,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 html {
+  scroll-behavior: smooth;
 }
 
 p {

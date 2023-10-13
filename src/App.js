@@ -6,7 +6,7 @@ import Pallete from "./pages/Pallete";
 function App() {
   return (
     <>
-      <div id="#home" className="home-container">
+      <div id="home" className="home-container">
         <div
           className="home-content"
           style={{ backgroundImage: `url("./pre.jpg")` }}
