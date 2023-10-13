@@ -13,7 +13,7 @@ export default function Navbar({ isOpen }) {
   return (
     <>
       <nav className={isOpen ? "open" : ""}>
-        <ul>
+        <ul className="menu">
           <IconContext.Provider
             value={{
               color: "black",
@@ -37,7 +37,7 @@ export default function Navbar({ isOpen }) {
               <a href="#home">Paleta</a>
               <Palette />
             </li>
-            <li>
+            <li className="icon">
               <a href="#lista-de-presentes">Lista de presentes</a>
               <Gift />
             </li>

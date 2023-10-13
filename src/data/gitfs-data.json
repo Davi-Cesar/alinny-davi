@@ -1,86 +1,339 @@
 [
   {
     "id": 1,
-    "img": "/assets/images/fritadeira_1.png",
-    "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 300.0,
-    "reservado": true
+    "img": "/assets/images/netflix.jpg",
+    "descricao": "Pix para 1 ano de Netflix pago",
+    "valor": 240.0,
+    "reservado": false
   },
   {
     "id": 2,
-    "img": "/assets/images/fritadeira_1.png",
-    "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0,
+    "img": "/assets/images/minoxidil.jpg",
+    "descricao": "Pix para 1 ano de minoxidil do noivo",
+    "valor": 180.0,
     "reservado": false
   },
   {
     "id": 3,
-    "img": "/assets/images/fritadeira_1.png",
-    "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0,
+    "img": "/assets/images/academia.jpg",
+    "descricao": "Pix para 2 meses de academia pago da noiva",
+    "valor": 260.0,
     "reservado": false
   },
   {
     "id": 4,
-    "img": "/assets/images/fritadeira_1.png",
-    "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0,
+    "img": "/assets/images/steam.png",
+    "descricao": "Pix para o noivo comprar na Steam",
+    "valor": 180.0,
     "reservado": false
   },
   {
     "id": 5,
-    "img": "/assets/images/fritadeira_1.png",
-    "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0,
+    "img": "/assets/images/casal.jpg",
+    "descricao": "Pix para o Projeto Maromba dos noivos",
+    "valor": 200.0,
     "reservado": false
   },
   {
     "id": 6,
-    "img": "/assets/images/fritadeira_1.png",
-    "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0,
+    "img": "/assets/images/jantar.jpg",
+    "descricao": "Pix para um jantar romântico dos noivos",
+    "valor": 200.0,
     "reservado": false
   },
   {
     "id": 7,
-    "img": "/assets/images/fritadeira_1.png",
-    "descricao": "Fritadeira 5 Litros 1400W",
+    "img": "/assets/images/internet.png",
+    "descricao": "Pix para pagar Internet dos noivos",
     "valor": 250.0,
     "reservado": false
   },
   {
     "id": 8,
-    "img": "/assets/images/fritadeira_1.png",
-    "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0,
+    "img": "/assets/images/cinema.jpg",
+    "descricao": "Pix para uma sessão de cinema dos noivos",
+    "valor": 85.0,
     "reservado": false
   },
   {
     "id": 9,
-    "img": "/assets/images/fritadeira_1.png",
-    "descricao": "Fritadeira 5 Litros 1400W",
+    "img": "/assets/images/cartão.jpg",
+    "descricao": "Pix para próxima fatura do cartão de crédito dos noivos",
     "valor": 250.0,
     "reservado": false
   },
   {
     "id": 10,
-    "img": "/assets/images/fritadeira_1.png",
-    "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0,
+    "img": "/assets/images/maracujina.png",
+    "descricao": "Pix para os noivos comprarem Maracugina para os dias tensos ",
+    "valor": 85.0,
     "reservado": false
   },
   {
     "id": 11,
-    "img": "/assets/images/fritadeira_1.png",
+    "img": "/assets/images/fritadeira.jpeg",
     "descricao": "Fritadeira 5 Litros 1400W",
     "valor": 250.0,
     "reservado": false
   },
   {
     "id": 12,
-    "img": "/assets/images/fritadeira_1.png",
-    "descricao": "Fritadeira 5 Litros 1400W",
+    "img": "/assets/images/faca6.jpg",
+    "descricao": "Jogo de Facas Tramontina Plenus com Lâminas em Aço Inox Cabos de Polipropileno Preto e Suporte de Madeira - 6 Peças",
+    "valor": 150.0,
+    "reservado": false
+  },
+  {
+    "id": 13,
+    "img": "/assets/images/faqueiro.jpg",
+    "descricao": "Faqueiro Tramontina Laguna em Aço Inox Acabamento em Brilho 36 Peças | Magalu",
+    "valor": 190.0,
+    "reservado": false
+  },
+  {
+    "id": 14,
+    "img": "/assets/images/facas9.jpg",
+    "descricao": "Jogo de Facas Tramontina Plenus com Lâminas em Aço Inox e Cabos Pretos - 9 Peças",
+    "valor": 80,
+    "reservado": false
+  },
+  {
+    "id": 15,
+    "img": "/assets/images/assadeira.jpg",
+    "descricao": "Jogo de Assadeiras Tramontina Brasil em Alumínio com Revestimento Antiaderente Starflon Max Grafite - 3 Peças",
+    "valor": 128.0,
+    "reservado": false
+  },
+  {
+    "id": 16,
+    "img": "/assets/images/liquidificador.jpeg",
+    "descricao": "Liquidificador Mondial Turbo Power Preto",
+    "valor": 180.0,
+    "reservado": false
+  },
+  {
+    "id": 17,
+    "img": "/assets/images/aspirador.webp",
+    "descricao": "Aspirador de pó portátil e vertical Electrolux Preto",
+    "valor": 200.0,
+    "reservado": false
+  },
+  {
+    "id": 18,
+    "img": "/assets/images/panelas.jpg",
+    "descricao": "Jogo de Panelas Tramontina Turim em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Preto - 07 Peças",
+    "valor": 360.0,
+    "reservado": false
+  },
+  {
+    "id": 19,
+    "img": "/assets/images/panela3l.jpg",
+    "descricao": "Panela de Pressão Tramontina Vancouver Alumínio com Revestimento Antiaderente Starflon Max Grafite 20cm 3L",
+    "valor": 200.0,
+    "reservado": false
+  },
+  {
+    "id": 20,
+    "img": "/assets/images/panela4l.jpg",
+    "descricao": "Panela de Pressão Tramontina Vancouver Alumínio com Revestimento Antiaderente Starflon Max Grafite 20cm 4,5L",
+    "valor": 220.0,
+    "reservado": false
+  },
+  {
+    "id": 21,
+    "img": "/assets/images/utensilio.jpeg",
+    "descricao": "Kit 12 Utensílios de Cozinha Silicone Cabo de Madeira na cor preta | Magalu",
+    "valor": 115.0,
+    "reservado": false
+  },
+  {
+    "id": 22,
+    "img": "/assets/images/espremedor.jpeg",
+    "descricao": "Espremedor de Frutas Mondial Premium E-02 1,25L",
+    "valor": 110.0,
+    "reservado": false
+  },
+  {
+    "id": 23,
+    "img": "/assets/images/batedeira.jpeg",
+    "descricao": "Batedeira Mondial 400W Bella Massa B-23 NP",
+    "valor": 180.0,
+    "reservado": false
+  },
+  {
+    "id": 48,
+    "img": "/assets/images/sanduicheira.jpeg",
+    "descricao": "Sanduicheira Mondial Fast Grill e Sandwich S-12 | Magalu",
+    "valor": 130.0,
+    "reservado": false
+  },
+  {
+    "id": 24,
+    "img": "/assets/images/ventilador.jpeg",
+    "descricao": "Ventilador de Mesa Mondial Turbo 8 Pás VTX-40-8P",
+    "valor": 270.0,
+    "reservado": false
+  },
+  {
+    "id": 25,
+    "img": "/assets/images/mixer.jpeg",
+    "descricao": "Mixer e Cortador 2 em 1 Mondial Spiralizer CS-03",
+    "valor": 240.0,
+    "reservado": false
+  },
+  {
+    "id": 26,
+    "img": "/assets/images/cafeteira.jpeg",
+    "descricao": "Cafeteira Arno Nescafe Dolce Gusto Mini Me Preta Automática (220v)",
+    "valor": 370.0,
+    "reservado": false
+  },
+  {
+    "id": 27,
+    "img": "/assets/images/assadeiraVidro.jpg",
+    "descricao": "Conjunto de Assadeiras de Vidro Marinex com Tampa cinza - 6 Peças | Magalu",
+    "valor": 170.0,
+    "reservado": false
+  },
+  {
+    "id": 28,
+    "img": "/assets/images/tigelaVidro.webp",
+    "descricao": "Conjunto de Tigelas de Vidro com Tampa cinza - 3 Peças Marinex - Plus | Magalu",
+    "valor": 150.0,
+    "reservado": false
+  },
+  {
+    "id": 29,
+    "img": "/assets/images/fruteira.jpeg",
+    "descricao": "Fruteira Florença de Chão para Cozinha 3 andares Preta | Magalu",
+    "valor": 200.0,
+    "reservado": false
+  },
+  {
+    "id": 30,
+    "img": "/assets/images/escorredor.jpeg",
+    "descricao": "Escorredor De Aço Inox 20 Pratos Com Porta Talher Inox | Magalu",
+    "valor": 150.0,
+    "reservado": false
+  },
+  {
+    "id": 31,
+    "img": "/assets/images/fondue.jpg",
+    "descricao": "Aparelho de Fondue Preto Brinox - 10 Peças | Magalu",
+    "valor": 140.0,
+    "reservado": false
+  },
+  {
+    "id": 32,
+    "img": "/assets/images/potesVidro370.jpeg",
+    "descricao": "Kit Conjunto 10 Potes de Vidro Hermético Marmita com Tampa 370ml | Magalu",
+    "valor": 160.0,
+    "reservado": false
+  },
+  {
+    "id": 33,
+    "img": "/assets/images/potesKeep.jpeg",
+    "descricao": "Kit 10 Potes De Vidros Herméticos Keep Fresh Member's Mark | Magalu",
+    "valor": 260.0,
+    "reservado": false
+  },
+  {
+    "id": 34,
+    "img": "/assets/images/bambu250.jpeg",
+    "descricao": "2 Kits Oikos de 4 Potes Hermético de Vidro Tampa Bambu Quadrado Flat 250ml | Magalu",
+    "valor": 240.0,
+    "reservado": false
+  },
+  {
+    "id": 35,
+    "img": "/assets/images/bambu6P.jpeg",
+    "descricao": "Kit Oikos 6 Potes Herméticos de Vidro Quadrado Flat com Tampa de Bambu",
+    "valor": 180.0,
+    "reservado": false
+  },
+  {
+    "id": 36,
+    "img": "/assets/images/bambu1400.jpeg",
+    "descricao": "2 Kits Oikos de 3 Potes de Vidro Tampa Bambu Quadrado Flat 1400ml | Magalu",
+    "valor": 300.0,
+    "reservado": false
+  },
+  {
+    "id": 37,
+    "img": "/assets/images/edredom160.jpg",
+    "descricao": "Edredom casal 160 fios percal branco 100% Algodão | Casa Riachuelo",
+    "valor": 300.0,
+    "reservado": false
+  },
+  {
+    "id": 38,
+    "img": "/assets/images/edredomBege.jpg",
+    "descricao": "Edredom Casal Jacquard Sherpa Bege | Casa Riachuelo",
+    "valor": 350.0,
+    "reservado": false
+  },
+  {
+    "id": 39,
+    "img": "/assets/images/edredomCinza.jpg",
+    "descricao": "Capa de Edredom Casal Duvet 300 Fios Stripe Cinza Chumbo 100% algodão | Casa Riachuelo",
     "valor": 250.0,
     "reservado": false
+  },
+  {
+    "id": 40,
+    "img": "/assets/images/camaBranca.jpg",
+    "descricao": "Jogo de Cama Casal 4 Peças 180 fios 100% Algodão Branco - Linea | Casa Riachuelo",
+    "valor": 200.0,
+    "reservado": false
+  },
+  {
+    "id": 41,
+    "img": "/assets/images/camaBege.jpg",
+    "descricao": "Jogo de cama casal 4 peças algodão bege | Casa Riachuelo",
+    "valor": 200.0,
+    "reservado": false
+  },
+  {
+    "id": 42,
+    "img": "/assets/images/toalhaAzul.jpg",
+    "descricao": "Jogo de toalhas de banho 2 peças pérola azul 100% algodão cor azul claro | Casa Riachuelo",
+    "valor": 100.0,
+    "reservado": false
+  },
+  {
+    "id": 43,
+    "img": "/assets/images/toalhaBranca.jpg",
+    "descricao": "2 Kits de toalha de banho 2 peças Lari branco | Buddemeyer | Casa Riachuelo",
+    "valor": 200.0,
+    "reservado": false
+  },
+  {
+    "id": 44,
+    "img": "/assets/images/toalhaBranca.jpg",
+    "descricao": "2 Kits de toalha de banho 2 peças Lari branco | Buddemeyer | Casa Riachuelo",
+    "valor": 200.0,
+    "reservado": false
+  },
+  {
+    "id": 45,
+    "img": "/assets/images/peseira.jpg",
+    "descricao": "Kit manta para cama peseira 3 peças com franjas azul | Casa Riachuelo",
+    "valor": 130.0,
+    "reservado": false
+  },
+  {
+    "id": 46,
+    "img": "/assets/images/espelho.jpg",
+    "descricao": "Espelho Orgânico Horizontal 44x64cm com Moldura Preta | Camicado",
+    "valor": 129.0,
+    "reservado": false
+  },
+  {
+    "id": 47,
+    "img": "/assets/images/luminaria.jpeg",
+    "descricao": "Abajur Luminaria de Mesa Aro Preto Harmony Ambar | Camicado",
+    "valor": 160.0,
+    "reservado": false
   }
+ 
 ]
