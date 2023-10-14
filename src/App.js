@@ -1,5 +1,6 @@
 import "./App.css";
 import Cerimonia from "./pages/Cerimonia/cerimonia";
+import Footer from "./pages/Footer";
 import Fotos from "./pages/Fotos/fotos";
 import ListaDePresentes from "./pages/ListaDePresentes/listaDePresentes";
 import Pallete from "./pages/Pallete";
@@ -22,6 +23,8 @@ function App() {
         <Pallete></Pallete>
         <ListaDePresentes />
         <Cerimonia />
+
+        <Footer></Footer>
       </div>
     </>
   );

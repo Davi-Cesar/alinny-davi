@@ -1,0 +1,110 @@
+.sitefooter {
+  padding: 2rem 0rem;
+  display: flex;
+
+  width: 100%;
+
+  flex-direction: column;
+
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
+  margin-top: 2rem;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+
+  transform: translateX(-10px);
+}
+
+.footer-logo > img {
+  width: 4rem;
+}
+
+.footer-logo > p {
+}
+
+.devs {
+  margin-top: 1rem;
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+}
+
+.devs p {
+  font-weight: bolder;
+}
+
+.devs a {
+  text-decoration: none;
+
+  color: black;
+}
+
+.photographer {
+  margin-top: 1rem;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.photographer > h5 {
+  font-weight: bolder;
+
+  font-size: 1rem;
+}
+
+.photographer > a > p {
+  margin-left: 0.2rem;
+}
+
+.photographer > a {
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  padding: 1rem;
+
+  border-radius: 25px;
+
+  margin-top: 0.2rem;
+
+  align-items: center;
+}
+
+.year {
+  margin-top: 1rem;
+}
+
+.instaIcon {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 700px) {
+  .sitefooter {
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    padding: 2rem 3rem;
+  }
+
+  .footer-logo {
+    transform: translateX(0px);
+  }
+
+  .photographer {
+    margin-top: 0rem;
+  }
+  .devs {
+    margin-top: 0rem;
+  }
+
+  .year {
+    margin-top: 0rem;
+  }
+}
