@@ -4,26 +4,43 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Pagination, Autoplay } from "swiper/modules";
+import {
+  Virtual,
+  FreeMode,
+  Pagination,
+  Autoplay,
+  Navigation,
+} from "swiper/modules";
+import { useEffect, useState } from "react";
 
 export default function Fotos() {
+  const [larguraTela, setLaguraTela] = useState(false);
+
+  useEffect(() => {
+    const handleWidth = () => {
+      window.innerWidth < 768 ? setLaguraTela(true) : setLaguraTela(false);
+    };
+    window.addEventListener("scroll", handleWidth);
+  }, []);
+
   return (
     <>
       <div id="fotos" className="container-fotos">
         <div className="box-image">
           <Swiper
-            slidesPerView={3}
+            slidesPerView={larguraTela ? 1 : 3}
             spaceBetween={30}
-            freeMode={true}
-            pagination={{
-              clickable: true,
-            }}
-            slide
-            modules={[FreeMode, Pagination, Autoplay]}
+            pagination={true}
+            // slide
+            modules={[Virtual, Pagination, Autoplay, Navigation]}
             className="mySwiper"
-            autoplay={{ delay: 1000 }}
+            autoplay={{
+              delay: 1000,
+            }}
+            enabled={true}
             navigation={true}
-            allowSlideNext={true}
+            pauseOnMouseEnter={true}
+            grabCursor={true}
           >
             <SwiperSlide>
               <img src="/pw1.jpg" alt="" />
@@ -35,42 +52,22 @@ export default function Fotos() {
               <img src="/pw3.jpg" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img
-                src="https://source.unsplash.com/1000x805"
-                alt="foto do casal"
-              />
+              <img src="/pw4.png" alt="foto do casal" />
             </SwiperSlide>
             <SwiperSlide>
-              <img
-                src="https://source.unsplash.com/1000x804"
-                alt="foto do casal"
-              />
+              <img src="/pw5.png" alt="foto do casal" />
             </SwiperSlide>
             <SwiperSlide>
-              <img
-                src="https://source.unsplash.com/1000x803"
-                alt="foto do casal"
-              />
+              <img src="/pw6.png" alt="foto do casal" />
             </SwiperSlide>
             <SwiperSlide>
-              <img
-                src="https://source.unsplash.com/1000x802"
-                alt="foto do casal"
-              />
+              <img src="/pw7.png" alt="foto do casal" />
             </SwiperSlide>
             <SwiperSlide>
-              <img
-                src="https://source.unsplash.com/1000x801"
-                alt="foto do casal"
-              />
-              Z
+              <img src="/pw8.jpg" alt="foto do casal" />
             </SwiperSlide>
             <SwiperSlide>
-              <img
-                src="https://source.unsplash.com/1000x810"
-                alt="foto do casal"
-              />
-              Z
+              <img src="/pw9.png" alt="foto do casal" />
             </SwiperSlide>
           </Swiper>
         </div>

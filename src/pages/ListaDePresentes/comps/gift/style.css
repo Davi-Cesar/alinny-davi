@@ -1,7 +1,8 @@
 .item {
   display: flex;
   flex-direction: column;
-
+  align-itens: center;
+  justify-content: center;
   width: 50%;
   margin: 0;
 
@@ -41,12 +42,19 @@
 }
 
 .button {
+  display: "flex";
+  align-items: "center";
+  justifycontent: "center";
   padding: 10px 20px;
   border: 1px solid black;
   border-radius: 20px;
   background: var(--gray-900);
   color: white;
   font-weight: bold;
+}
+
+.button svg {
+  padding-top: 0.2rem;
 }
 
 .reserved {

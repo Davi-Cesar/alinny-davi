@@ -60,9 +60,6 @@
   height: 100%;
 } */
 
-@media (min-width: 780px) {
-}
-
 @media (max-width: 768px) {
   .container-fotos {
     height: 100%;
