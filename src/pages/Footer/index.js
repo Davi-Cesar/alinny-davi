@@ -14,21 +14,24 @@ function Footer() {
 
       <div className="devs">
         <p>Feito por:</p>
-        <a>Davi Cesar</a>
+        <a href="https://github.com/Davi-Cesar" target="_blank">
+          Davi Cesar
+        </a>
         <a href="https://marlonsecundo.github.io/portfolio/" target="_blank">
           Marlon Secundo
         </a>
       </div>
-
       <div className="photographer">
         {/* <h5>Fotográfo</h5> */}
 
-        <a>
+        <a
+          href="https://instagram.com/robertofbezerra?igshid=MzRlODBiNWFlZA=="
+          target="_blank"
+        >
           <InstagramLogo className="instaIcon" />
-          <p>@Photografo</p>
+          <p>@robertofbezerra</p>
         </a>
       </div>
-
       <div className="year">2023</div>
     </footer>
   );

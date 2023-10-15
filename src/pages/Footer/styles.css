@@ -51,6 +51,22 @@
 
   flex-direction: column;
   align-items: center;
+  border-radius: 25px;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.photographer:hover {
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
 }
 
 .photographer > h5 {
@@ -65,15 +81,15 @@
 
 .photographer > a {
   display: flex;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
   padding: 1rem;
-
-  border-radius: 25px;
 
   margin-top: 0.2rem;
 
   align-items: center;
+  text-decoration: none;
+
+  color: black;
 }
 
 .year {
@@ -105,6 +121,10 @@
   }
 
   .year {
+    margin-top: 0rem;
+  }
+
+  .photographer > a {
     margin-top: 0rem;
   }
 }
