@@ -95,7 +95,7 @@
     "img": "/assets/images/facas9.jpg",
     "descricao": "Jogo de Facas Tramontina Plenus com Lâminas em Aço Inox e Cabos Pretos - 9 Peças",
     "valor": 80,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 15,
@@ -165,7 +165,7 @@
     "img": "/assets/images/sanduicheira.jpeg",
     "descricao": "Sanduicheira Mondial Fast Grill e Sandwich S-12 | Magalu",
     "valor": 130.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 24,

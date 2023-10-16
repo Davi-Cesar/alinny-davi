@@ -29,7 +29,7 @@ export default function Fotos() {
             modules={[Virtual, Pagination, Autoplay, Navigation]}
             className="mySwiper"
             autoplay={{
-              delay: 1000,
+              delay: 3000,
             }}
             enabled={true}
             navigation={true}
