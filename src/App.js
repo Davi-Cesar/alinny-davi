@@ -3,6 +3,7 @@ import Cerimonia from "./pages/Cerimonia/cerimonia";
 import Footer from "./pages/Footer";
 import Fotos from "./pages/Fotos/fotos";
 import ListaDePresentes from "./pages/ListaDePresentes/listaDePresentes";
+import Message from "./pages/Message";
 import Pallete from "./pages/Pallete";
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
 
         <Fotos />
 
+        <Message></Message>
         <Pallete></Pallete>
         <ListaDePresentes />
         <Cerimonia />

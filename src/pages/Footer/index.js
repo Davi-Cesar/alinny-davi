@@ -7,9 +7,6 @@ function Footer() {
     <footer className="sitefooter">
       <div className="footer-logo">
         <img src="/logo_vetorizada.svg" />
-        <p>
-          Alinny <br />e Davi
-        </p>
       </div>
 
       <div className="devs">
@@ -21,17 +18,20 @@ function Footer() {
           Marlon Secundo
         </a>
       </div>
-      <div className="photographer">
-        {/* <h5>Fotográfo</h5> */}
 
-        <a
-          href="https://instagram.com/robertofbezerra?igshid=MzRlODBiNWFlZA=="
-          target="_blank"
-        >
-          <InstagramLogo className="instaIcon" />
-          <p>@robertofbezerra</p>
-        </a>
+      <div>
+        <p style={{ fontWeight: "bolder" }}>Fotos:</p>
+        <div className="photographer">
+          <a
+            href="https://instagram.com/robertofbezerra?igshid=MzRlODBiNWFlZA=="
+            target="_blank"
+          >
+            <InstagramLogo className="instaIcon" />
+            <p>@robertofbezerra</p>
+          </a>
+        </div>
       </div>
+
       <div className="year">2023</div>
     </footer>
   );
