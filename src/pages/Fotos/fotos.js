@@ -4,13 +4,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Virtual,
-  FreeMode,
-  Pagination,
-  Autoplay,
-  Navigation,
-} from "swiper/modules";
+import { Virtual, Pagination, Autoplay, Navigation } from "swiper/modules";
 import { useEffect, useState } from "react";
 
 export default function Fotos() {
@@ -39,17 +33,16 @@ export default function Fotos() {
             }}
             enabled={true}
             navigation={true}
-            pauseOnMouseEnter={true}
             grabCursor={true}
           >
             <SwiperSlide>
-              <img src="/pw1.jpg" alt="" />
+              <img src="/pw1.jpg" alt="foto do casal" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/pw2.jpg" alt="" />
+              <img src="/pw2.jpg" alt="foto do casal" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/pw3.jpg" alt="" />
+              <img src="/pw3.jpg" alt="foto do casal" />
             </SwiperSlide>
             <SwiperSlide>
               <img src="/pw4.png" alt="foto do casal" />
@@ -68,6 +61,15 @@ export default function Fotos() {
             </SwiperSlide>
             <SwiperSlide>
               <img src="/pw9.png" alt="foto do casal" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/pw10.jpg" alt="foto do casal" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/pw11.jpg" alt="foto do casal" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/pw12.jpg" alt="foto do casal" />
             </SwiperSlide>
           </Swiper>
         </div>

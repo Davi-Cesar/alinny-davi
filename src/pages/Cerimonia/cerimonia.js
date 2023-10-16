@@ -8,7 +8,7 @@ export default function Cerimonia() {
           <h1>CERIMÔNIA</h1>
         </center>
         <div className="garden">
-          <img src="/garden.svg" alt="espaço garden" />
+          <img src="/garden.png" alt="espaço garden" />
         </div>
         <p>
           Gostaríamos muito de contar com a presença de todos vocês no momento

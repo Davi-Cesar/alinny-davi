@@ -12,7 +12,7 @@ function Footer() {
       <div className="devs">
         <p>Feito por:</p>
         <a href="https://github.com/Davi-Cesar" target="_blank">
-          Davi Cesar
+          Davi César
         </a>
         <a href="https://marlonsecundo.github.io/portfolio/" target="_blank">
           Marlon Secundo
