@@ -27,7 +27,9 @@ function Message() {
           <div className="message-footer">
             <p style={{ marginTop: "4rem" }}>
               <b>Endereço: </b>
-              Av. Euzébio Rocha nº 13 - Cidade da Esperança <br></br>
+              Av. Euzébio Rocha nº 13 - Cidade da Esperança - Natal/RN <br></br>
+              <b>CEP: </b>
+              59060-660
               <br></br>
               <b>PIX:</b> (84) 99419-9621
             </p>
