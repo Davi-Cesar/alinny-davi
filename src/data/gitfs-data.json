@@ -105,6 +105,13 @@
     "reservado": false
   },
   {
+    "id": 47,
+    "img": "/assets/images/microondas.jpeg",
+    "descricao": "Micro-ondas Philco PMO30ES Porta Espelhada 28L 1400W",
+    "valor": 600.0,
+    "reservado": false
+  },
+  {
     "id": 16,
     "img": "/assets/images/liquidificador.jpeg",
     "descricao": "Liquidificador Mondial Turbo Power Preto",
@@ -328,5 +335,6 @@
     "valor": 160.0,
     "reservado": false
   }
+  
  
 ]
