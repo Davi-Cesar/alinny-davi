@@ -26,11 +26,8 @@ export default function Fotos() {
             spaceBetween={30}
             pagination={true}
             // slide
-            modules={[Virtual, Pagination, Autoplay, Navigation]}
+            modules={[Virtual, Pagination, Navigation]}
             className="mySwiper"
-            autoplay={{
-              delay: 1000,
-            }}
             enabled={true}
             navigation={true}
             grabCursor={true}
