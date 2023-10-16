@@ -65,7 +65,7 @@ nav {
     transform: translateX(10%);
   }
 
-  .open a {
+  .open p {
     margin: 0;
     display: none;
   }

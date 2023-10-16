@@ -29,7 +29,7 @@
   },
   {
     "id": 5,
-    "img": "/assets/images/casal.jpg",
+    "img": "/assets/images/casal.png",
     "descricao": "Pix para o Projeto Maromba dos noivos",
     "valor": 200.0,
     "reservado": false
@@ -72,8 +72,8 @@
   {
     "id": 11,
     "img": "/assets/images/fritadeira.jpeg",
-    "descricao": "Fritadeira 5 Litros 1400W",
-    "valor": 250.0,
+    "descricao": "Fritadeira Elétrica Sem Óleo Air Fryer Mondial New Pratic 3,5L",
+    "valor": 350.0,
     "reservado": false
   },
   {
@@ -247,7 +247,7 @@
   {
     "id": 35,
     "img": "/assets/images/bambu6P.jpeg",
-    "descricao": "Kit Oikos 6 Potes Herméticos de Vidro Quadrado Flat com Tampa de Bambu",
+    "descricao": "Kit Oikos 6 Potes Herméticos de Vidro Quadrado Flat com Tampa de Bambu | Magalu",
     "valor": 180.0,
     "reservado": false
   },
@@ -309,27 +309,20 @@
   },
   {
     "id": 44,
-    "img": "/assets/images/toalhaBranca.jpg",
-    "descricao": "2 Kits de toalha de banho 2 peças Lari branco | Buddemeyer | Casa Riachuelo",
-    "valor": 200.0,
-    "reservado": false
-  },
-  {
-    "id": 45,
     "img": "/assets/images/peseira.jpg",
     "descricao": "Kit manta para cama peseira 3 peças com franjas azul | Casa Riachuelo",
     "valor": 130.0,
     "reservado": false
   },
   {
-    "id": 46,
+    "id": 45,
     "img": "/assets/images/espelho.jpg",
     "descricao": "Espelho Orgânico Horizontal 44x64cm com Moldura Preta | Camicado",
     "valor": 129.0,
     "reservado": false
   },
   {
-    "id": 47,
+    "id": 46,
     "img": "/assets/images/luminaria.jpeg",
     "descricao": "Abajur Luminaria de Mesa Aro Preto Harmony Ambar | Camicado",
     "valor": 160.0,
