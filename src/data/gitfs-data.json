@@ -112,10 +112,24 @@
     "reservado": false
   },
   {
+    "id": 50,
+    "img": "/assets/images/ferro.jpg",
+    "descricao": "Ferro de Passar Roupa a Vapor Philips - 5000 Series DST5040 Preto",
+    "valor": 370.0,
+    "reservado": false
+  },
+  {
     "id": 16,
     "img": "/assets/images/liquidificador.jpeg",
     "descricao": "Liquidificador Mondial Turbo Power Preto",
     "valor": 180.0,
+    "reservado": false
+  },
+  {
+    "id": 49,
+    "img": "/assets/images/fogao.jpeg",
+    "descricao": "Fogão Brastemp 4 Bocas Inox com Duas Prateleiras com Alturas Ajustáveis - BFO4NBR",
+    "valor": 1600.0,
     "reservado": false
   },
   {
@@ -335,6 +349,7 @@
     "valor": 160.0,
     "reservado": false
   }
+  
   
  
 ]

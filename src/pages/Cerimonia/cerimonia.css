@@ -10,7 +10,7 @@
   font-size: var(--tamanho-fonte);
   padding: 2rem 0;
   font-family: "Lato";
-  color: var(--gray-600);
+  color: black;
   line-height: 22px;
   margin: 0;
 }
