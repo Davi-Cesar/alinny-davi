@@ -19,7 +19,7 @@ function Footer() {
         </a>
       </div>
 
-      <div>
+      <div className="photoContainer">
         <p style={{ fontWeight: "bolder" }}>Fotos:</p>
         <div className="photographer">
           <a
