@@ -123,7 +123,7 @@
     "img": "/assets/images/liquidificador.jpeg",
     "descricao": "Liquidificador Mondial Turbo Power Preto",
     "valor": 180.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 49,
@@ -165,14 +165,14 @@
     "img": "/assets/images/utensilio.jpeg",
     "descricao": "Kit 12 Utensílios de Cozinha Silicone Cabo de Madeira na cor preta | Magalu",
     "valor": 115.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 22,
     "img": "/assets/images/espremedor.jpeg",
     "descricao": "Espremedor de Frutas Mondial Premium E-02 1,25L",
     "valor": 110.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 23,
