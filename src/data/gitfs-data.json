@@ -137,7 +137,7 @@
     "img": "/assets/images/aspirador.webp",
     "descricao": "Aspirador de pó portátil e vertical Electrolux Preto",
     "valor": 200.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 18,
