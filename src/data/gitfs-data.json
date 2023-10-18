@@ -53,7 +53,7 @@
     "img": "/assets/images/cinema.jpg",
     "descricao": "Pix para uma sessão de cinema dos noivos",
     "valor": 85.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 9,
@@ -67,7 +67,7 @@
     "img": "/assets/images/maracujina.png",
     "descricao": "Pix para os noivos comprarem Maracugina para os dias tensos ",
     "valor": 85.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 11,
@@ -179,7 +179,7 @@
     "img": "/assets/images/batedeira.jpeg",
     "descricao": "Batedeira Mondial 400W Bella Massa B-23 NP",
     "valor": 180.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 48,
@@ -242,7 +242,7 @@
     "img": "/assets/images/fondue.jpg",
     "descricao": "Aparelho de Fondue Preto Brinox - 10 Peças | Magalu",
     "valor": 140.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 32,
@@ -333,7 +333,7 @@
     "img": "/assets/images/Peseira.jpg",
     "descricao": "Kit manta para cama peseira 3 peças com franjas azul | Casa Riachuelo",
     "valor": 130.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 45,
