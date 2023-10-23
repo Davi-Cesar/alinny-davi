@@ -81,7 +81,7 @@
     "img": "/assets/images/faca6.jpg",
     "descricao": "Jogo de Facas Tramontina Plenus com Lâminas em Aço Inox Cabos de Polipropileno Preto e Suporte de Madeira - 6 Peças",
     "valor": 150.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 13,
@@ -235,7 +235,7 @@
     "img": "/assets/images/escorredor.jpeg",
     "descricao": "Escorredor De Aço Inox 20 Pratos Com Porta Talher Inox | Magalu",
     "valor": 150.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 31,
