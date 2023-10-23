@@ -102,7 +102,7 @@
     "img": "/assets/images/assadeira.jpg",
     "descricao": "Jogo de Assadeiras Tramontina Brasil em Alumínio com Revestimento Antiaderente Starflon Max Grafite - 3 Peças",
     "valor": 128.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 47,
@@ -319,7 +319,7 @@
     "img": "/assets/images/toalhaAzul.jpg",
     "descricao": "Jogo de toalhas de banho 2 peças pérola azul 100% algodão cor azul claro | Casa Riachuelo",
     "valor": 100.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 43,
@@ -340,7 +340,7 @@
     "img": "/assets/images/espelho.jpg",
     "descricao": "Espelho Orgânico Horizontal 44x64cm com Moldura Preta | Camicado",
     "valor": 129.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 46,
