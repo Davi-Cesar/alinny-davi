@@ -193,7 +193,7 @@
     "img": "/assets/images/ventilador.jpeg",
     "descricao": "Ventilador de Mesa Mondial Turbo 8 Pás VTX-40-8P",
     "valor": 270.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 25,
