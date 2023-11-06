@@ -88,7 +88,7 @@
     "img": "/assets/images/faqueiro.jpg",
     "descricao": "Faqueiro Tramontina Laguna em Aço Inox Acabamento em Brilho 36 Peças | Magalu",
     "valor": 190.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 14,
