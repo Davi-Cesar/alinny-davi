@@ -151,7 +151,7 @@
     "img": "/assets/images/panela3l.jpg",
     "descricao": "Panela de Pressão Tramontina Vancouver Alumínio com Revestimento Antiaderente Starflon Max Grafite 20cm 3L",
     "valor": 200.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 20,
