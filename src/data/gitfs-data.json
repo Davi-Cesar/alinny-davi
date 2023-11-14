@@ -207,14 +207,14 @@
     "img": "/assets/images/cafeteira.jpeg",
     "descricao": "Cafeteira Arno Nescafe Dolce Gusto Mini Me Preta Automática (220v)",
     "valor": 370.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 27,
     "img": "/assets/images/assadeiraVidro.jpg",
     "descricao": "Conjunto de Assadeiras de Vidro Marinex com Tampa cinza - 6 Peças | Magalu",
     "valor": 170.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 28,
