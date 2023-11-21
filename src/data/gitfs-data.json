@@ -25,7 +25,7 @@
     "img": "/assets/images/steam.png",
     "descricao": "Pix para o noivo comprar na Steam",
     "valor": 180.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 5,
@@ -349,7 +349,4 @@
     "valor": 160.0,
     "reservado": true
   }
-  
-  
- 
 ]
