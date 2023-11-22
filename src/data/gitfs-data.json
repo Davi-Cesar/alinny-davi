@@ -39,7 +39,7 @@
     "img": "/assets/images/jantar.jpg",
     "descricao": "Pix para um jantar romântico dos noivos",
     "valor": 200.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 7,
@@ -109,7 +109,7 @@
     "img": "/assets/images/microondas.jpeg",
     "descricao": "Micro-ondas Philco PMO30ES Porta Espelhada 28L 1400W",
     "valor": 600.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 50,
@@ -200,7 +200,7 @@
     "img": "/assets/images/mixer.jpeg",
     "descricao": "Mixer e Cortador 2 em 1 Mondial Spiralizer CS-03",
     "valor": 240.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 26,
