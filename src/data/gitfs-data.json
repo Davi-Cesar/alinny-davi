@@ -228,7 +228,7 @@
     "img": "/assets/images/fruteira.jpeg",
     "descricao": "Fruteira Florença de Chão para Cozinha 3 andares Preta | Magalu",
     "valor": 200.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 30,
@@ -305,7 +305,7 @@
     "img": "/assets/images/camaBranca.jpg",
     "descricao": "Jogo de Cama Casal 4 Peças 180 fios 100% Algodão Branco - Linea | Casa Riachuelo",
     "valor": 200.0,
-    "reservado": false
+    "reservado": true
   },
   {
     "id": 41,
