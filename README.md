@@ -18,7 +18,7 @@ Tecnologias Utilizadas
 * Frontend: HTML5, CSS3, JavaScript (React.js)
 
 ## Instalação
-* Clone o repositório: git clone https://github.com/seu-usuario/alinny-davi.git
+* Clone o repositório: git clone https://github.com/Davi-Cesar/alinny-davi.git
 
 ## Navegue até o diretório do projeto: cd nome-do-repositorio
 * Instale as dependências do frontend: npm install
