@@ -20,11 +20,9 @@ Tecnologias Utilizadas
 ## Instalação
 * Clone o repositório: git clone https://github.com/Davi-Cesar/alinny-davi.git
 
-## Navegue até o diretório do projeto: cd nome-do-repositorio
+## Navegue até o diretório do projeto: cd davi-alinny
 * Instale as dependências do frontend: npm install
 
-* Configure as variáveis de ambiente conforme descrito no arquivo .env.example
-* Inicie o servidor frontend: npm start
-* Em outra janela do terminal, inicie o servidor frontend: npm start
+
 
 
