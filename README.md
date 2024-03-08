@@ -6,22 +6,22 @@ O Site de Casamento de Davi & Alinny é uma plataforma online criada para ajudar
 
 ## Página Inicial: Apresentação dos noivos e breve descrição do casamento.
 
-## Informações do Casamento: Detalhes sobre a cerimônia, localização, data e hora.
+* Informações do Casamento: Detalhes sobre a cerimônia, localização, data e hora.
 
-## Lista de Presentes: Lista de presentes desejados pelos noivos.
+* Lista de Presentes: Lista de presentes desejados pelos noivos.
 Confirmação de Presença: Formulário para os convidados confirmarem presença.
 
-## Galeria de Fotos: Exibição de fotos do casal e de momentos especiais.
+* Galeria de Fotos: Exibição de fotos do casal e de momentos especiais.
 Contato: Formulário de contato para os convidados entrarem em contato com os noivos.
 Tecnologias Utilizadas
 
-## Frontend: HTML5, CSS3, JavaScript (React.js)
+* Frontend: HTML5, CSS3, JavaScript (React.js)
 
 ## Instalação
-Clone o repositório: git clone https://github.com/seu-usuario/nome-do-repositorio.git
+*Clone o repositório: git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 ## Navegue até o diretório do projeto: cd nome-do-repositorio
-## Instale as dependências do frontend: npm install
+* Instale as dependências do frontend: npm install
 
 * Configure as variáveis de ambiente conforme descrito no arquivo .env.example
 * Inicie o servidor frontend: npm start
