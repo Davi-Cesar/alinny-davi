@@ -11,7 +11,7 @@ function App() {
       <div id="home" className="home-container">
         <div
           className="home-content"
-          style={{ backgroundImage: `url("./pre.jpg")` }}
+          style={{ backgroundImage: `url("./pre.webp")` }}
         >
           <div className="home-background">
             <h1>Alinny & Davi</h1>

@@ -2,6 +2,7 @@
 
 .header {
   font-family: "Buenard", sans-serif;
+  animation: fadeIn 2s ease;
 
   height: 100px;
   width: 100%;
@@ -14,6 +15,15 @@
   left: 0;
   z-index: 1000;
   transition: 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* Começa totalmente transparente */
+  }
+  100% {
+    opacity: 1; /* Fica totalmente visível */
+  }
 }
 
 .header-rolagem {
